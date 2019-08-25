@@ -1,4 +1,7 @@
-all: clean build run
+all: clean test build
+
+test:
+	go test -v ./...
 
 clean:
 	rm -rf bin/main

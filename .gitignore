@@ -11,4 +11,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# vim swap files
 *.swp
+
+# compiled output
+bin/
